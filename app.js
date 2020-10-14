@@ -14,7 +14,7 @@ var multer = require("multer");
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 app.set("view engine", "ejs");
-var PORT = process.env.PORT || 8000;
+var PORT = process.env.PORT || 3000;
 
 var connection = mysql.createConnection({
   host: "d9c88q3e09w6fdb2.cbetxkdyhwsb.us-east-1.rds.amazonaws.com",
